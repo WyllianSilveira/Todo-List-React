@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 90vw;
+    max-width: 700px;
+    margin: auto;
+
+}
+
+
+.container h1{
+    color: #B83D00;
+    text-decoration: underline;
+    font-size: 2.2rem;
+}
+
+
+.btn-img{
+    width: 2rem;
+    height: 2rem;
+}
+
+
+ul{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+.container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 83vh
+}
+
+.container-img img{
+    width: 65%;
+    height: 85%;
+}
+
+.item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.875rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: rgba(151, 151, 151, 0.5);  
+    font-weight: 500; 
+}
+
+.item button img{
+    background-color: #B83D00;
+    color: white;
+}
+
+.card{
+    box-shadow: 0 2px 7px 1px rgba(0,0,0,0.2); 
+    border-radius: .5rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 17vh;
+}
+
+.add-button{
+    width: 3.125rem;
+    height: 3.125rem;
+    background-color: #B83D00;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.add-button:hover{
+    background-color: #7B82F9;
+    transition: .3s;
+}
+
+
+.modal{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(151, 151, 151, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-modal{
+    background-color:  #fff;
+    padding: 4rem;
+    display: flex;
+}
+
+input[type="text"]{
+    padding: .4rem;
+    height: 2rem;
+    outline: none;
+}
+
+form button{
+    height: 2rem;
+    padding: 0 .5rem;
+    cursor: pointer;
+    margin-left: .4rem;
+    background-color: #B83D00;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: .2rem;
+}
+
+form button:hover{
+    background-color: #7B82F9;
+    transition: .3s;
+}
+
+.hide{
+    display: none;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+    
+    html{
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 482px) {
+    
+    html{
+        font-size: 80%;
+    }
+
+    .container-img img{
+        width: 90%;
+    }
+}
+
+
+
+
+
