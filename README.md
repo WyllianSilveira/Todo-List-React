@@ -1,5 +1,9 @@
 # Todo-List-React
 
+<p align="center">
+  <img alt="Todo-List" src="./public/assets/.png">
+</p>
+
 
 ## Tecnologias
 
