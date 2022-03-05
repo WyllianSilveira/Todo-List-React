@@ -1,7 +1,7 @@
 # Todo-List-React
 
-<p align="center">
-  <img alt="Todo-List" src="./public/assets/.png">
+<p align="center" border="none">
+  <img alt="Todo-List" src="./public/assets/todo_img.png">
 </p>
 
 
