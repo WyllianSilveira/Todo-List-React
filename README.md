@@ -17,7 +17,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Projeto 
 
-Todo-List Responsivo desenvolvido com bibioteca React, essa aplicação permite adicionar exluir e marcar como feita quaisquer atividades do usuário
+Todo-List Responsivo desenvolvido com bibioteca React, essa aplicação permite adicionar excluir e marcar como feita quaisquer atividades do usuário
 
 ## Licença
 
